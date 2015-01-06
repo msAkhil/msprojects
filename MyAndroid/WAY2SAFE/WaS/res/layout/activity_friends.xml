@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/background"
+    tools:context=".Friends" 
+    >
+<TextView
+        android:id="@+id/txtHd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="FRIENDS LIST"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <ListView
+        android:id="@+id/listF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/txtHd"
+        android:layout_marginTop="5dp"
+ 
+        android:cacheColorHint="#00000000" />
+
+
+
+</RelativeLayout>
